@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --brand-green: greenyellow;
+  --white: #ffffff;
+  --backround: black;
+  --green: green;
+}
+footer{
+    display: flex;
+    height: 50px;
+    background: var(--backround);
+    padding: 0 5%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+footer section, footer div {
+    display: flex;
+    color: var(--brand-green);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer svg {
+    color: var(--white);
+    width: 25px;
+    height: 25px;
+}
+.footer-list-items{
+    list-style: none;
+}
+.quick-link {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 50px;
+    gap: 1px;
+    background-color: var(--green);
+    clip-path: polygon(
+    15% 0,
+    100% 0,
+    100% 100%,
+    0 100%
+  );
+}
+.quick-link > h4{
+    color: var(--brand-green);
+}
+.footer-ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-list-items > a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.footer-list-items > a:hover{
+    text-decoration: underline;
+    color: var(--brand-green);
+}
+@media screen and (max-width: 800px) {
+    footer{
+    flex-direction: column;
+    gap: unset;
+    padding: unset;
+}
+footer section{
+    padding: 2% 5%;
+    width: 100%;
+    gap: 10%;
+    justify-content: space-between;
+    height: 50px;
+}
+.quick-link {
+    width: 100%;
+    clip-path: unset;
+}
+footer svg {
+    color: var(--white);
+    width: 20px;
+    height: 20px;
+}
+}
+@media screen and (max-width: 500px){
+    footer{
+        height:max-content;
+    }
+    footer section {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .quick-link{
+        height: unset;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .footer-ul{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    p{
+        font-size: 12px;
+    }
+    footer svg {
+    color: var(--white);
+    width: 15px;
+    height: 15px;
+}
+}
