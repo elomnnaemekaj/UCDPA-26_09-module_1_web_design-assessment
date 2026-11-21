@@ -5,11 +5,10 @@
 }
 
 :root {
-  --brand-red: #e10600;
-  --ink: #0b0b0b;
+  --brand-green: greenyellow;
   --white: #ffffff;
-  --muted: #6b7280;
-  --charcoal: #1a1a1a;
+  --backround: black;
+  --green: green;
 }
 
 * {
@@ -21,17 +20,28 @@
 header {
   display: flex;
   height: 70px;
-  background: black;
+  background: var(--backround);
   align-items: end;
   padding: 0 5% 2px;
   justify-content: space-between;
-  border-bottom: 2px solid white;
-  /* box-shadow: 0 8px 8px 0 black; */
+  border-bottom: 2px solid var(--white);
 }
 .logo {
-  width: 70px;
-  height: 70px;
-  background-color: black;
+  width: 150px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+.logo > h1 {
+  font-size: 40px;
+  color: var(--white);
+  font-weight: 700;
+  letter-spacing: 8px;
+  line-height: 5vh;
+}
+.logo > p {
+  color: var(--brand-green);
+  font-weight: 800;
 }
 nav {
   width: 70%;
@@ -43,17 +53,23 @@ nav {
   height: 40px;
   padding: 5px;
   font-weight: 700;
-  color: var(--brand-red);
+  color: var(--brand-green);
+}
+.active {
+  color: var(--green);
+}
+.link-item:hover {
+  color: var(--green);
 }
 .group-btn {
   width: 200px;
 }
-.theme-inverse{
-    background-color: white;
-    color: var(--brand-red);
+.theme-inverse {
+  background-color: var(--white);
+  color: var(--brand-green);
 }
-.theme-inverse:hover{
-    background-color: black;
+.theme-inverse:hover {
+  color: green;
 }
 svg {
   stroke: currentColor;
@@ -106,64 +122,74 @@ svg {
 }
 
 @media screen and (max-width: 500px) {
-    header{
-        height: 50px;
-    }
-    .logo {
-        width: 40px;
-        height: 40px;
-        background-color: black;
-    }
-    .link-item {
-        width: 50px;
-        height: 30px;
-        font-weight: 400;
-        font-size: 14px;
-}
-.bi-three-dots {
-  width: 15px;
-  height: 15px;
-  /* padding: unset; */
-}
-.group-btn {
+  header {
+    gap: 50px;
+  }
+  .logo {
+    width: 120px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo > h1 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 15px;
+  }
+  .logo > p {
+    color: var(--brand-green);
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .link-item {
+    width: 50px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .bi-three-dots {
+    width: 15px;
+    height: 15px;
+  }
+  .group-btn {
     top: 30px;
-  right: 10px;
-}
-.menu-ctrl {
-  padding: 0 2px;
-}
+    right: 10px;
+  }
+  .menu-ctrl {
+    padding: 0 2px;
+  }
 }
 
-@media screen and (max-width: 350px) {
-    .nav-ul{
-        display: none;
-    }
-    .menu-ctrl{
-        position: absolute;
-        top: 5px;
-        right: 20px;
-    }
+@media screen and (max-width: 400px) {
+  .nav-ul {
+    display: none;
+  }
+  .menu-ctrl {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+  }
 
-    .main-nav:hover .nav-ul {
-        display: flex;
-        flex-direction: column;
-        width: 50px;
-        background-color: white;
-        position: absolute;
-        top: 15px;
-        right: 30px;
-        border-radius: 10px 10px 0 0;
-    }
-    .main-nav:hover .group-btn{
-        width: 50px;
-        right: 30px;
-        top: 110px;
-        border-radius: 0;
-    }
-    .btn-solid:first-child{
-        border-radius: unset;
-    }
-    .btn-solid{
-        border: none;
-    }
+  .main-nav:hover .nav-ul {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    background-color: var(--white);
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    border-radius: 10px 10px 0 0;
+  }
+  .main-nav:hover .group-btn {
+    width: 50px;
+    right: 30px;
+    top: 110px;
+    border-radius: 0;
+  }
+  .btn-solid:first-child {
+    border-radius: unset;
+  }
+  .btn-solid {
+    border: none;
+  }
 }
