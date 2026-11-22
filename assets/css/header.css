@@ -68,7 +68,8 @@ nav {
   background-color: var(--white);
   color: var(--brand-green);
 }
-.theme-inverse:hover, .account-link:hover {
+.theme-inverse:hover,
+.account-link:hover {
   color: green;
 }
 svg {
@@ -76,9 +77,9 @@ svg {
   stroke-width: 1.5px;
   stroke-linejoin: round;
 }
-.account-link{
-    text-decoration: none;
-    color: var(--brand-green);
+.account-link {
+  text-decoration: none;
+  color: var(--brand-green);
 }
 .menu-ctrl {
   padding: 0 10px;

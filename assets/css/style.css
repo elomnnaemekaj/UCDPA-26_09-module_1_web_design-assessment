@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --brand-green: greenyellow;
+  --white: #ffffff;
+  --backround: black;
+  --green: green;
+}
+
+.main-section {
+  height: max-content;
+  width: 100%;
+  background:
+    linear-gradient(rgba(106, 103, 103, 0.75), rgba(147, 134, 134, 0.75)),
+    url(../images/09.jpg) no-repeat center center / cover;
+  display: flex;
+  gap: 5%;
+  justify-content: space-between;
+  padding: 50px 5%;
+  border-bottom: 2px solid #ffffff;
+}
+.main-section-text-area {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.play-hard {
+  color: var(--white);
+  margin-bottom: -15px;
+  font-weight: bold;
+}
+.look-sharp {
+  color: var(--brand-green);
+  font-weight: bold;
+}
+.text-area-p-tag {
+  color: var(--white);
+  font-weight: bold;
+}
+.text-area-btn {
+  border: unset;
+  background-color: var(--brand-green);
+  color: var(--backround);
+  height: 40px;
+  width: 150px;
+  border-radius: 50px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.text-area-btn > svg {
+  transform: scaleX(2.5);
+}
+.three-shirts-right {
+  width: 50%;
+  justify-self: end;
+  margin-bottom: -50px;
+}
+
+.border-design {
+  height: 30px;
+  background-color: greenyellow;
+  border-radius: 50% 50% 0 0;
+  position: relative;
+  margin-top: -30px;
+}
+.card-container-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 20px;
+  padding: 0 5%;
+}
+.shop-by-cat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.line-before,
+.line-after {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: var(--brand-green);
+}
+.card-container-div {
+  width: 90%;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card-item {
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px 20px 0 0;
+}
+.card-item > b {
+  width: 150px;
+  background-color: var(--brand-green);
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .main-section-text-area {
+    width: 50%;
+  }
+  .play-hard {
+    font-size: 25px;
+    margin-bottom: -15px;
+  }
+  .look-sharp {
+    font-size: 25px;
+  }
+
+  .text-area-p-tag {
+    font-weight: 600;
+  }
+  .text-area-btn {
+    height: 30px;
+    width: 120px;
+    font-weight: 500;
+  }
+  .text-area-btn > svg {
+    transform: scaleX(2);
+  }
+  .three-shirts-right {
+    width: 40%;
+  }
+
+  .border-design {
+    height: 20px;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .main-section {
+    flex-direction: column;
+    height: 60vh;
+  }
+  .main-section-text-area {
+    width: 100%;
+    align-items: center;
+  }
+  .text-area-p-tag {
+    text-align: center;
+  }
+  .three-shirts-right {
+    width: 100%;
+  }
+}
