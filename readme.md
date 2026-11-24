@@ -3,11 +3,11 @@
 
 ### PLAY HARD, LOOK SHARP.
 
-A responsive, multi-page sportswear website developed as part of the **UCD Professional Academy – Full Stack Software Development Diploma, Module 1: Web Design Assessment**.
+I developed JUNE SPORTS WEARS as part of the **UCD Professional Academy – Full Stack Software Development Diploma, Module 1: Web Design Assessment**.
 
-- **GitHub Repository:** [View Source Code](https://github.com/elomnnaemekaj/UCDPA-26_09-module_1_web_design-assessment)
-- **GitHub Pages Live Website:** [Visit JUNE SPORTS WEARS](https://elomnnaemekaj.github.io/UCDPA-26_09-module_1_web_design-assessment/index.html)
-- **AI Chat:** [View AI-Assisted Development Conversation](https://chatgpt.com/share/6b0221c8-eacc-83ed-912d-9485f6c14237)
+- **GitHub Repository:** [View My Source Code](https://github.com/elomnnaemekaj/UCDPA-26_09-module_1_web_design-assessment)
+- **GitHub Pages Live Website:** [Visit My Website](https://elomnnaemekaj.github.io/UCDPA-26_09-module_1_web_design-assessment/index.html)
+- **AI Chat:** [View My AI-Assisted Development Conversation](https://chatgpt.com/share/6b0221c8-eacc-83ed-912d-9485f6c14237)
 
 ## Table of Contents
 
@@ -24,54 +24,58 @@ A responsive, multi-page sportswear website developed as part of the **UCD Profe
 
 ## Project Overview
 
-JUNE SPORTS WEARS is a sportswear website concept designed for athletes, sports officials and sports enthusiasts. The website promotes sportswear across different sporting activities, with an inclusive approach to its intended audience.
+I created JUNE SPORTS WEARS as a sportswear website concept for athletes, sports officials and sports enthusiasts. My aim was to present sportswear across different sporting activities while maintaining an inclusive approach to the intended audience.
 
-The design uses a black, green, green-yellow and white colour scheme. Its visual identity is supported by product imagery, icons, a consistent navigation header and a reusable footer.
+I chose a black, green, green-yellow and white colour scheme to establish the visual identity of the brand. I used product imagery, icons, a consistent navigation header and a reusable footer to create a recognisable design across the website.
 
-The website focuses on presenting the brand, providing contact information and offering a basic account interface.
+Through this project, I focused on presenting the brand, providing contact information and creating a basic account interface.
 
-**Slogan:** PLAY HARD, LOOK SHARP.
+**My slogan:** PLAY HARD, LOOK SHARP.
 
 ## Website Pages
 
+I organised my website into four main pages:
+
 | Page | File | Purpose |
 |---|---|---|
-| Home | `index.html` | Introduces the brand and displays sportswear categories. |
-| About | `pages/about.html` | Presents the brand, its mission, vision and promise. |
-| Contact | `pages/contact.html` | Displays contact information, opening hours and a message form. |
-| Account | `pages/account.html` | Provides the account login interface. |
+| Home | `index.html` | I use this page to introduce my brand and display sportswear categories. |
+| About | `pages/about.html` | I use this page to explain my brand, mission, vision and promise. |
+| Contact | `pages/contact.html` | I provide contact information, opening hours and a message form. |
+| Account | `pages/account.html` | I provide a basic account login interface. |
 
 ## Technologies
 
-- **HTML5:** Defines the structure and content of the website.
-- **CSS3:** Controls layout, colours, typography, spacing, backgrounds and responsive behaviour.
-- **Bootstrap:** Provides an external framework and reusable styling resources.
-- **Bootstrap Icons / SVG:** Used for interface and informational icons.
-- **Git and GitHub:** Used for version control and repository management.
-- **GitHub Pages:** Used to host the website.
+I used the following technologies and tools to develop my website:
+
+- **HTML5:** I used HTML to structure the content and elements of my website.
+- **CSS3:** I used CSS to control layouts, colours, typography, spacing, backgrounds and responsive behaviour.
+- **Bootstrap:** I used Bootstrap as an external framework and source of reusable styling resources.
+- **Bootstrap Icons / SVG:** I used icons to support the visual presentation of interface elements.
+- **Git and GitHub:** I used Git for version control and GitHub to manage my repository.
+- **GitHub Pages:** I used GitHub Pages to publish my website online.
 
 ## HTML Structure and Semantic Elements
 
-The project uses HTML5 semantic elements to organise content and improve readability.
+I used HTML5 semantic elements to organise my content and make my code easier to understand and maintain.
 
-| Element | Purpose |
+| Element | How I Used It |
 |---|---|
-| `<header>` | Contains the brand logo and navigation area. |
-| `<nav>` | Groups the main navigation links. |
-| `<main>` | Holds the primary content of each page. |
-| `<section>` | Separates content into meaningful sections. |
-| `<article>` | Groups independent or self-contained content where appropriate. |
-| `<aside>` | Holds supporting information. |
-| `<footer>` | Contains the website footer and supporting links. |
-| `<table>` | Presents structured opening-hours information. |
-| `<form>` | Groups the contact form controls. |
-| `<fieldset>` and `<legend>` | Group related form controls and identify their purpose. |
+| `<header>` | I used this element to contain my brand logo and navigation area. |
+| `<nav>` | I used it to group my main navigation links. |
+| `<main>` | I used it to contain the primary content of each page. |
+| `<section>` | I used sections to separate related content into meaningful areas. |
+| `<article>` | I used this element where content could be grouped as an independent or self-contained item. |
+| `<aside>` | I used it for supporting information. |
+| `<footer>` | I used it to contain my website footer and supporting links. |
+| `<table>` | I used a table to present my opening-hours information. |
+| `<form>` | I used a form to group the controls on my Contact page. |
+| `<fieldset>` and `<legend>` | I used these elements to group related form controls and identify their purpose where appropriate. |
 
-Each page includes a document type declaration, language attribute, character encoding and viewport metadata.
+I included a document type declaration, language attribute, character encoding and viewport metadata in my HTML pages.
 
 ## CSS Organisation and Styling Techniques
 
-CSS is separated into external stylesheets to make the project easier to maintain and organise.
+I separated my CSS into external stylesheets to make my code easier to organise, maintain and update.
 
 ```text
 assets/
@@ -84,7 +88,7 @@ assets/
     └── account.css
 ```
 
-The header and footer stylesheets provide shared styling, while the other stylesheets control page-specific layouts.
+I used `header.css` and `footer.css` for shared styling, while I used the remaining stylesheets to control the layouts of individual pages.
 
 ### 1. Universal Selector and Box Sizing
 
@@ -96,7 +100,9 @@ The header and footer stylesheets provide shared styling, while the other styles
 }
 ```
 
-The universal selector (`*`) targets every element. The rule removes default browser margins and padding and applies `border-box` sizing. This makes the declared width and height include padding and borders, helping to control element dimensions.
+I used the universal selector (`*`) to target all elements. I removed the default browser margins and padding and applied `border-box` sizing.
+
+This allows the declared width and height of an element to include its padding and borders, helping me manage element dimensions more consistently.
 
 ### 2. Class Selectors
 
@@ -110,9 +116,9 @@ A class selector starts with a full stop (`.`).
 }
 ```
 
-The `card-item` class can be assigned to multiple HTML elements. This allows the same styling to be reused across several product-category cards.
+I used classes such as `.card-item`, `.logo`, `.link-item` and `.main-section` to apply reusable styles to elements.
 
-Classes are useful for reusable styles, such as `.logo`, `.link-item` and `.main-section`.
+A class can be assigned to multiple HTML elements, allowing me to apply the same styling to several product-category cards or other related components.
 
 ### 3. ID Selectors
 
@@ -126,9 +132,9 @@ An ID selector starts with a hash (`#`).
 }
 ```
 
-The `submit` ID identifies a particular element, in this example the contact form's Submit button.
+I used an ID to identify a particular element, such as my contact form's Submit button.
 
-IDs are useful when styling a unique element. An ID should be unique within an HTML document.
+IDs are useful when I need to target a unique element. I keep each ID unique within an HTML document.
 
 ### 4. HTML Tag Selectors
 
@@ -146,11 +152,13 @@ footer {
 }
 ```
 
-These selectors apply styling to matching HTML tags. They are useful when a general style should apply to all elements of that type.
+I used tag selectors when I wanted to apply general styling to elements such as `<header>` and `<footer>`.
+
+This allowed me to style matching HTML elements without assigning a separate class to each one.
 
 ### 5. Child Combinator
 
-The `>` symbol selects a direct child of an element.
+I used the `>` symbol to select a direct child of an element.
 
 ```css
 .logo > h1 {
@@ -159,13 +167,13 @@ The `>` symbol selects a direct child of an element.
 }
 ```
 
-This selects an `<h1>` that is an immediate child of an element with the `logo` class. It does not select every heading nested further inside that element.
+This selector targets an `<h1>` that is an immediate child of an element with the `logo` class.
 
-The child combinator helps target specific parts of a component without affecting unrelated nested elements.
+I used the child combinator to target specific elements within a component without selecting every matching element nested further inside it.
 
 ### 6. First-Child Pseudo-Class
 
-The `:first-child` pseudo-class selects an element only when it is the first child of its parent.
+I used the `:first-child` pseudo-class to select an element when it is the first child of its parent.
 
 ```css
 .btn-solid:first-child {
@@ -173,11 +181,13 @@ The `:first-child` pseudo-class selects an element only when it is the first chi
 }
 ```
 
-This targets an element with the `btn-solid` class when it is the first child of its parent. It can be used to style the beginning of a group of adjacent controls.
+This selector targets an element with the `btn-solid` class when it appears as the first child of its parent.
+
+I can use this technique to style the beginning of a group of adjacent controls differently from the other elements.
 
 ### 7. nth-child() Pseudo-Class
 
-The `:nth-child()` pseudo-class selects an element according to its position among its siblings.
+I used the `:nth-child()` pseudo-class to select an element according to its position among its siblings.
 
 ```css
 .btn-solid:nth-child(3) {
@@ -185,9 +195,9 @@ The `:nth-child()` pseudo-class selects an element according to its position amo
 }
 ```
 
-This targets an element with the `btn-solid` class when it is the third child of its parent.
+This selector targets an element with the `btn-solid` class when it is the third child of its parent.
 
-Unlike a class selector, `:nth-child()` uses the element's position rather than a manually assigned class name. It is useful when different elements in a group need different styling.
+Unlike a class selector, `:nth-child()` allows me to apply styling based on an element's position. I can use it when I want different elements in a group to have different styles.
 
 ### 8. CSS Custom Properties
 
@@ -200,7 +210,9 @@ Unlike a class selector, `:nth-child()` uses the element's position rather than 
 }
 ```
 
-Custom properties store reusable values. They are accessed using the `var()` function:
+I used CSS custom properties to store reusable values, such as colours.
+
+I can access these values using the `var()` function:
 
 ```css
 body {
@@ -209,7 +221,7 @@ body {
 }
 ```
 
-This makes it easier to maintain a consistent colour scheme and update repeated values.
+This approach helps me maintain a consistent colour scheme and update repeated values more efficiently.
 
 ### 9. Background Images and Overlays
 
@@ -224,11 +236,15 @@ This makes it easier to maintain a consistent colour scheme and update repeated 
 }
 ```
 
-The linear gradient creates a translucent overlay over the background image. The `no-repeat` value prevents the image from repeating, while `cover` scales it to fill the available area.
+I used a linear gradient to create a translucent overlay over my background image.
+
+The `no-repeat` value prevents the image from repeating, while `cover` scales the image to fill the available area.
+
+This technique helps me maintain the visual impact of the background image while keeping foreground content readable.
 
 ### 10. Flexbox and Media Queries
 
-Flexbox is used to align and distribute elements within containers.
+I used Flexbox to align and distribute elements within containers.
 
 ```css
 display: flex;
@@ -236,7 +252,7 @@ justify-content: space-between;
 align-items: center;
 ```
 
-Media queries adjust the layout at different screen widths:
+I used media queries to adjust my layouts at different screen widths.
 
 ```css
 @media screen and (max-width: 650px) {
@@ -244,82 +260,86 @@ Media queries adjust the layout at different screen widths:
 }
 ```
 
-This allows elements to change dimensions, direction and spacing on smaller devices.
+This allows me to change element dimensions, direction and spacing to suit smaller devices.
 
 ## Contact Table and Form
 
 ### Opening-Hours Table
 
-The Contact page uses an HTML table to present business opening hours.
+I used an HTML table on my Contact page to present opening-hours information.
 
-The table contains:
+I structured the table using:
 
-- `<thead>` for column headings.
-- `<tbody>` for the data rows.
-- `<tr>` for each table row.
-- `<th>` for heading cells.
-- `<td>` for individual data cells.
+- `<thead>` to contain my column headings.
+- `<tbody>` to contain my data rows.
+- `<tr>` to define each table row.
+- `<th>` to define heading cells.
+- `<td>` to define individual data cells.
 
-This is an appropriate use of a table because days and opening times are related tabular information. It allows visitors to identify the relevant opening hours for each day.
+I chose a table because opening days and times are related tabular information. This structure allows visitors to identify the opening hours for each day clearly.
 
 ### Contact Form
 
-The contact form provides a structured interface for visitors to enter their details and prepare a message.
+I created a contact form to provide visitors with a structured interface for entering their details and preparing a message.
 
-It includes:
+My form includes:
 
-- Text input for the visitor's name.
-- Email input for the visitor's email address.
+- A text input for the visitor's name.
+- An email input for the visitor's email address.
 - A select control for the message subject.
 - A textarea for the message.
 - A Submit button.
 
-The `required` attribute provides basic browser-side validation for required fields, while `type="email"` checks that the email input follows a recognised email format.
+I used the `required` attribute to provide basic browser-side validation for required fields. I also used `type="email"` to allow the browser to check whether the email input follows a recognised email format.
 
-The Submit button triggers the browser's form submission process. A working message-delivery feature requires a configured form endpoint or back-end service; the HTML interface alone does not send messages to the website owner.
+When a visitor clicks the Submit button, the browser attempts to submit the form. However, a working message-delivery feature requires a configured form endpoint or back-end service. The HTML interface alone does not send messages to me.
 
 ## Responsive Design
 
-The project uses flexible layouts, percentage-based widths, Flexbox and CSS media queries to adapt page content to different screen sizes.
+I used flexible layouts, percentage-based widths, Flexbox and CSS media queries to adapt my website to different screen sizes.
 
-The navigation, homepage content, contact sections and footer include responsive styling rules.
+I included responsive styling for my navigation, homepage content, contact sections and footer.
 
-The intended result is a consistent experience across desktop, tablet and mobile devices.
+My aim was to maintain a consistent and usable experience across desktop, tablet and mobile devices.
 
 ## AI-Assisted Development
 
-AI tools were used as supplementary learning and development support during the project. The assistance focused on understanding CSS properties, resolving styling questions and exploring implementation approaches. Suggestions were reviewed and incorporated by the developer where appropriate.
+I used AI tools as supplementary learning and development support during this project.
 
-The screenshot below provides evidence of an AI-assisted discussion about CSS background image properties, including `background-repeat` and `background-size: cover`.
+I sought assistance with understanding CSS properties, resolving styling questions and exploring possible implementation approaches. I reviewed the suggestions and incorporated them into my work where appropriate.
+
+The screenshot below provides evidence of my AI-assisted discussion about CSS background image properties, including `background-repeat` and `background-size: cover`.
 
 ### AI Chat Screenshot
 
-![Screenshot of AI-assisted CSS discussion](assets/images/ai-css-assistance.png)
+![Screenshot of my AI-assisted CSS discussion](assets/images/ai-css-assistance.png)
 
 **AI conversation:**  
-[View the ChatGPT conversation](https://chatgpt.com/share/6b0221c8-eacc-83ed-912d-9485f6c14237)
+[View My AI-Assisted Development Conversation](https://chatgpt.com/share/6b0221c8-eacc-83ed-912d-9485f6c14237)
 
 ## Deployment and Version Control
 
-The project is hosted using GitHub Pages.
+I used Git and GitHub for version control and project management.
 
-Git and GitHub were used for version control and project management. Development changes were made in the `dev` branch, allowing updates to be reviewed and refined before being merged into the `main` branch.
+I made development changes in the `dev` branch, allowing me to review and refine updates before merging them into the `main` branch.
 
-The `main` branch serves as the final production version used for deployment. This workflow keeps development changes separate from the production version until they are ready to be integrated.
+I use the `main` branch as the final production version of my project. This workflow allows me to keep development changes separate from the production version until they are ready to be integrated.
+
+I published my website using GitHub Pages.
 
 ## Future Improvements
 
-The following features have been identified as possible future enhancements:
+I identified the following features as possible future enhancements:
 
-- Connecting the contact form to a message-handling service or back-end system.
+- Connecting my contact form to a message-handling service or back-end system.
 - Implementing functional account registration and user authentication.
 - Adding fully functional shopping-cart and search features.
 - Expanding product information and introducing online purchasing functionality.
 - Conducting further accessibility, browser compatibility and responsive testing.
 
-These enhancements are acknowledged as opportunities for further development. However, they all fall beyond the scope of the current Module 1 Web Design Assessment.
+I recognise these enhancements as opportunities for further development. However, they all fall beyond the scope of my current Module 1 Web Design Assessment.
 
-The project therefore focuses on meeting the requirements and objectives of the assigned front-end website development task.
+I therefore focused my work on meeting the requirements and objectives of the assigned front-end website development task.
 
 ---
 
