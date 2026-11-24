@@ -10,6 +10,10 @@
   --backround: black;
   --green: green;
 }
+body {
+  color: var(--backround);
+  background: var(--white);
+}
 .about-main {
   background:
     linear-gradient(rgba(77, 76, 76, 0.75), rgba(44, 43, 43, 0.75)),
