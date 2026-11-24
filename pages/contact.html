@@ -173,7 +173,28 @@
               d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"
             />
           </svg>
-          <p>MON-SAT: 9am-5pm</p>
+          <table class="table" id="table">
+            <thead class="thead">
+              <tr>
+                <th>Days</th>
+                <th>Times</th>
+              </tr>
+            </thead>
+            <tbody class="tbody">
+              <tr>
+                <td>MON-FRI</td>
+                <td>9am-5pm</td>
+              </tr>
+              <tr>
+                <td>SAT</td>
+                <td>10am-3pm</td>
+              </tr>
+              <tr>
+                <td>SUN & BH</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
         </aside>
       </section>
       <section class="contact-second-section">
@@ -184,11 +205,11 @@
             </legend>
             <section>
               <label for="name">Name</label>
-              <input type="text" name="name" id="name" required />
+              <input type="text" name="name" id="name" placeholder="Your Name" required />
             </section>
             <section>
               <label for="email">Email</label>
-              <input type="email" name="email" id="email" required />
+              <input type="email" name="email" id="email" placeholder="Your Email" required />
             </section>
             <section>
               <label for="subject">Subject</label>
@@ -203,11 +224,9 @@
             </section>
             <section>
               <label for="message">Message</label>
-              <textarea name="message" id="message" cols="30" rows="10">
-Type your message...
-                        </textarea
-              >
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message..."></textarea>
             </section>
+            <button id="submit">Submit</button>
           </fieldset>
         </form>
       </section>

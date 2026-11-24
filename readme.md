@@ -124,22 +124,6 @@ Accessibility considerations include semantic HTML, image alternative text, labe
 
 Keyboard navigation, visible focus indicators, colour contrast and touchscreen navigation require final verification.
 
-## Assessment Requirements and Further Work
-
-The project addresses the assessment's core HTML, CSS, navigation, responsive layout, documentation and hosting objectives.
-
-The following items should be completed or verified before final submission:
-
-- Replace all placeholder About page text with original content.
-- Add and verify a meaningful HTML table.
-- Add a working `mailto:` email hyperlink where required.
-- Add a visible Contact form submit button and clarify how submissions are handled.
-- Verify the bonus feature requirement, such as a CSS image gallery or transition.
-- Test navigation and layout at 375px, including touchscreen and keyboard use.
-- Check image alternative text, heading order, contrast and focus visibility.
-- Test the website in Chrome, Edge and Firefox.
-- Complete the Planning and Analysis Sheet with the project goal, page descriptions, sources, sitemap, wireframe, AI contribution and supporting screenshots.
-
 ## Version Control
 
 The project is maintained in a public GitHub repository with **15 commits**.
