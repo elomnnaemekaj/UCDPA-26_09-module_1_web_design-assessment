@@ -9,6 +9,10 @@
   --backround: black;
   --green: green;
 }
+body {
+  color: var(--backround);
+  background: var(--white);
+}
 .account-main {
   width: 100%;
   height: 100vh;
@@ -30,10 +34,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, black, black, yellowgreen, black);
+  background: var(--white);
 }
 .login {
-  color: var(--white);
+  color: var(--backround);
   font-weight: bold;
 }
 .account-right form {
@@ -44,7 +48,7 @@
 }
 
 .account-right form label {
-  color: var(--white);
+  color: var(--backround);
   font-weight: 600;
 }
 .account-right form input {
@@ -55,11 +59,16 @@
   width: 100px;
   align-self: center;
   font-weight: 600;
+  background: var(--green);
   border: none;
+}
+.account-right button:hover{
+  background: var(--brand-green);
+  color: var(--backround);
 }
 .account-text {
   margin-top: 40px;
-  color: var(--white);
+  color: var(--backround);
   font-size: 16px;
   display: flex;
   flex-direction: column;

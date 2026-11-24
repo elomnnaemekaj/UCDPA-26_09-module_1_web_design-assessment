@@ -9,7 +9,10 @@
   --backround: black;
   --green: green;
 }
-
+body {
+  color: var(--backround);
+  background: var(--white);
+}
 .main-section {
   height: max-content;
   width: 100%;
@@ -113,7 +116,8 @@
 }
 .card-item > b {
   width: 150px;
-  background-color: var(--brand-green);
+  background-color: var(--green);
+  color: var(--white);
   border-radius: 0 0 20px 20px;
   text-align: center;
 }

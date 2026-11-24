@@ -10,7 +10,10 @@
   --backround: black;
   --green: green;
 }
-
+body {
+  color: var(--backround);
+  background: var(--white);
+}
 .contact-main {
   min-height: 100vh;
   background:
