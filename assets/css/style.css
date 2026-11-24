@@ -121,6 +121,13 @@ body {
   border-radius: 0 0 20px 20px;
   text-align: center;
 }
+.card-item {
+  transition: transform 0.3s ease;
+}
+
+.card-item:hover {
+  transform: translateY(-5px);
+}
 @media screen and (max-width: 650px) {
   .main-section-text-area {
     width: 50%;
